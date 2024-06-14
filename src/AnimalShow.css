@@ -1,0 +1,48 @@
+.animal-show {
+    position: relative;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+    background-color: white;
+}
+
+.animal-show:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.animal {
+    font-size: 80px; /* Adjusted size */
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.heart {
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+    font-size: 24px;
+    animation: pulse 1s infinite;
+    color: red;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@media (max-width: 600px) {
+    .animal {
+        font-size: 60px; /* Adjusted size for smaller screens */
+    }
+}
