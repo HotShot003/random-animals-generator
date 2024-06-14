@@ -3,8 +3,13 @@
 This is a simple React application created for learning purposes. It generates random animals when you click the button, and you can like the generated animals by clicking on them. The heart icon will gradually increase in size with each click.
 
 ## About
+The Random Animal Generator is a basic React application developed to help users learn and practice fundamental React concepts.
 
-This project is a basic React application developed to practice React concepts such as useState hook, handling events, and rendering dynamic content.
+By clicking the "Generate Animal" button, the application randomly selects an animal from a predefined list and displays it on the screen. 
+
+Users can then click on the displayed animal to "like" it, which causes the heart icon to grow in size with each click. 
+
+This project provides an interactive way to explore and understand how to use useState hook, handle events, and render dynamic content in React applications.
 
 ## Technologies Used
 
